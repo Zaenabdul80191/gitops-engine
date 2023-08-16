@@ -6,6 +6,7 @@ COPY go.mod /src/go.mod
 COPY go.sum /src/go.sum
 
 RUN go mod download
+Maintainer zaenabdulali
 
 # Perform the build
 COPY . .
